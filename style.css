@@ -1,0 +1,315 @@
+/* CONFIGURACIÓN GENERAL */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f2f2f2;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Menú */
+
+header {
+    background-color: #617fdb;
+    padding: 20px;
+}.Barra-Navegacion {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+nav a:hover {
+    background-color: #8fc9b5;
+    color: #41e9bc;
+}
+.Boton-Menu {
+    display: none;
+}
+
+/* Sectores */
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    min-height: 300px;
+}
+#Inicio {
+    background-color: #dcf5ed;
+}
+#Sobre-Mi {
+    background-color: #fce2be;
+}
+#Galeria {
+    background-color: #d3a9a9;
+}
+#Redes {
+    background-color: #baffe8;
+}
+
+/* Titulos */
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Texto */
+
+section p {
+    text-align: center;
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+/* Portada Inicio */
+
+.Inicio-Contenido {
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+#Inicio h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+#Inicio h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+/* Espacio Ilustracion */
+
+.Imagen-Cabecera {
+    width: 80%;
+    max-width: 900px;
+    height: 350px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border: 3px dashed #617fdb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4fe38a;
+}
+
+/* Descripcion Inicio */
+
+.Descripcion-Inicio {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Sobre Mí */
+
+.Sobre-Mi-Contenido {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.Sobre-Mi-Texto {
+    max-width: 700px;
+    margin: 0 auto;
+}
+#Sobre-Mi h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#Sobre-Mi h3 {
+    font-size: 24px;
+    color: #3f6f8f;
+}
+#Sobre-Mi p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Galeria */
+
+.Galeria-Contenido {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#Galeria h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.Galeria-Descripcion {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Imágenes de la Galería */
+.Galeria-Imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+}
+
+/* Tarjetas de los Dibujos */
+
+.Dibujo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Espacio para las Imágenes */
+
+.Espacio-Dibujo {
+    width: 100%;
+    height: 250px;
+    background-color: #a2dbc6;
+    border: 2px dashed #617fdb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #617fdb;
+}
+
+/* Informacion del Dibujo */
+
+.Dibujo h3 {
+    color: #3f6f8f;
+    margin-top: 20px;
+}
+.Dibujo p {
+    line-height: 1.5;
+}
+
+/* Redes */
+
+.Redes-Contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#Redes h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.Redes-Descripcion {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+.Redes-Tarjeta {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.Redes-Tarjeta h3 {
+    color: #3f6f8f;
+    margin-bottom: 27px;
+}
+.Redes-Tarjeta p {
+    line-height: 1.6;
+}
+
+/* Boton Instagram */
+
+.Boton-Instagram {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #F56040;
+    color: #5851DB;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.Boton-Instagram:hover {
+    background-color: #C13584;
+    color: #FCAF45;
+}
+
+/* Pie de Página */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5b8fb9;
+    color: #ffffff;
+}
+
+/* Diseño a Celulares */
+
+@media (max-width: 768px) {
+    /* Menú */
+    header {
+        padding: 15px 20px;
+    }
+    .Barra-Navegacion {
+        flex-wrap: wrap;
+    }
+    .Boton-Menu {
+        display: block;
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 27px;
+        cursor: pointer;
+    }
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    nav.Menu-Abierto {
+        display: flex;
+    }
+    nav a {
+        width: auto;
+        text-align: center;
+    }
+
+    /* Titulos */
+    #Inicio h1 {
+        font-size: 38px;
+    }
+    #Inicio h2 {
+        font-size: 20px;
+    }
+
+    /* Portada */
+    .Imagen-Cabecera {
+        width: 90%;
+        height: 250px;
+    }
+
+    /* Galeria */
+    .Galeria-Imagenes {
+        grid-template-columns: 1fr;
+    }
+    .Dibujo {
+        width: auto;
+    }
+}
